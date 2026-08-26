@@ -37,11 +37,11 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           TZ: America/New_York
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --gc --minify --source site --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./site/public
 
   deploy:
     environment:
