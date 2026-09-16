@@ -1,4 +1,3 @@
-
 /* ==========================================================
    Mustafa Enes Çalışkan — academic site stylesheet (v2)
    ========================================================== */
@@ -384,3 +383,9 @@ a:hover { color: var(--color-accent-hover); text-decoration: underline; }
   content: ""; position: absolute; left: 0; top: 0.6em;
   width: 4px; height: 4px; border-radius: 50%; background: var(--color-accent);
 }
+
+/* grouped conference presentations */
+.pres-group { margin-bottom: 1.25rem; }
+.pres-group:last-child { margin-bottom: 0; }
+.pres-paper { font-weight: 600; margin: 0 0 0.4rem; }
+.pres-group .compact-list { margin-left: 0.25rem; }

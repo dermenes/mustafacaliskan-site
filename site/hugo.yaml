@@ -19,7 +19,7 @@ params:
     - Household Finance
     - Remote Work & Gender Gaps
   mysite:
-    credit: true
+    credit: false
     discovery: true
 
 menu:
